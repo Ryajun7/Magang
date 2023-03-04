@@ -64,13 +64,86 @@ header{
     border-radius: 50px;
     color: #fff;
   }
+/* responsive */
+  @media screen and (max-width: 480px) {
+    #navbar .nav-item{
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    #navbar .nav-link{
+      font-size: 15px;
+    }
+    #home {
+      background-size: 10px;
+      padding-top: 20px;
+      min-height: 95vh;
+    }
+    #home .title {
+      width: 100%;
+    }
+    #home h1{
+      font-size: 25px;
+      font-style: bold;
+    }
+    #home p{
+      font-size: 15px;
+      padding: 10rem;
+    }
+    .content2a {
+      margin: 0px;
+    }
+    .take-break img {
+      padding: 25px;
+    }
+    #mitra img{
+      width: 4rem;
+      height: auto;
+      margin: 5px
+    }
+
+    .content3 h1{
+      margin-bottom: 4rem;
+    }
+
+    .content3 .row .col-md-4{
+      margin: 0px;
+    }
+    #profil{
+      margin-top: 2rem;
+    }
+    #staff {
+      margin-top: 3rem;
+    }
+
+    #staff .row{
+      margin: 0px;
+    }
+
+    #staff img{
+      margin-bottom: 10px;
+    }
+
+    #gallery.content{
+      padding: 0;
+    }
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .sekolah-alam{
+      width: 50%;
+    }
+  }
+
+/* responsive */
+
+
 /* content 2 */
   .take-break{
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
   .take-break img{
-    padding: 35px;
+    width: 22rem;
   }
   .take-break .title{
     color: var(--main-color);
@@ -95,7 +168,7 @@ header{
 
 /* content 3 */
   .content3{
-  margin-top: 35px;
+    margin-top: 10px;
   }
   .content3 .title-once{
     margin-bottom: 10px;
@@ -112,7 +185,7 @@ header{
   }
 
   .content-poin{
-    padding: 40px 0;
+    padding: 10px 0;
   }
   /* content 3 */
 
@@ -263,7 +336,8 @@ header{
   }
 
   .content2a{
-      margin: 50px;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
   }
   .content2a h5{
     color: var(--main-color);
@@ -274,7 +348,7 @@ header{
   }
 
   #profil{
-    margin: 50px;
+    margin-bottom: 20px;
   }
 
   #profil img{
@@ -297,8 +371,8 @@ header{
     margin-top: 160px;
     margin-bottom: 160px;
 }
-  .contentk .second_title{
-    padding: 41px;
+  .contentk img{
+    width: 100%;
   }
   .contentk h5{
     color: var(--main-color);
@@ -312,7 +386,7 @@ header{
     font-weight: 700;
   }
   .contentk p{
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     font-family: var(--font-default);
     color: #787878;
     text-align: justify;
@@ -336,8 +410,4 @@ header{
 
 
   /* kontak */
-  @media only screen and (max-width: 600px) {
-    .sekolah-alam{
-      width: 50%;
-    }
-  }
+ 
