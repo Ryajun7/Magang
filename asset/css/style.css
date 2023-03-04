@@ -185,6 +185,8 @@ header{
     margin-top: 20px;
     margin-right: 10px;
   }
+
+  #infomasi
   /* informasi */
 
   /* content-end */
@@ -250,7 +252,8 @@ header{
 
   .footer .social-links img{
     width: 34px;
-    margin: 3px;
+    margin-bottom: 10px;
+
   }
   .footer .copyright {
     text-align: center;
@@ -336,5 +339,14 @@ header{
     margin-top: 55px;
   }
   
+  /* .image-index{
+
+  } */
+
 
   /* kontak */
+  @media only screen and (max-width: 600px) {
+    .sekolah-alam{
+      width: 50%;
+    }
+  }
