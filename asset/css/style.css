@@ -180,19 +180,17 @@ header{
     margin-top: 20px;
     margin-right: 10px;
   }
-
-  #infomasi
   /* informasi */
 
   /* content-end */
 
   .content-end{
     background: url('../img/bgE.png');
-    min-height: 120vh;
-    padding: 50px 0 0 0;
-    margin-top: 50px;
+    height: 40rem;
+    width: auto;
+    margin-top: 30px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
   }
   .content-end h9{
     color: var(--main-color);
@@ -200,8 +198,10 @@ header{
   }
   .content-end .title{
     text-align: center;
+    padding: 60px;
   }
   .content-end .btn-warning{
+    margin-bottom: 10px;
     border-radius: 50px;
     color: #fff;
   }
@@ -329,7 +329,7 @@ header{
   }
   .contentk a{
     padding: 16px 30px;
-    margin-top: 55px;
+    margin-top:55px;
   }
   
 
